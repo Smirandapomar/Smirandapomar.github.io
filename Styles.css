@@ -1,0 +1,483 @@
+
+/* Sección de servicios */
+
+.services-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Centra el contenido horizontalmente */
+    text-align: center;
+    width: 22%; /* Mantiene el tamaño del ancho */
+    margin: 0 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px; /* Reduce el padding para que la tarjeta sea menos alta */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 250px; /* Reduce la altura mínima de la tarjeta */
+}
+
+
+
+
+.service-item img {
+    max-width: 50px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Centra la imagen horizontalmente */
+}
+
+.service-item h3 {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    color: #333;
+    font-size: 14px;
+    flex-grow: 1;
+}
+
+/* Contenedor del botón */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cotiza-btn {
+    background-color: #4543e9;
+    color: #fff;
+    padding: 8px 20px; /* Botón más pequeño */
+    text-decoration: none;
+    font-size: 14px; /* Ajusta el tamaño de fuente */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.cotiza-btn:hover {
+    background-color: #444;
+}
+/* Sección de servicios */
+.services-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* Asegura que los ítems tengan la misma altura */
+    background-color: #fff;
+    padding: 20px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column; /* Permite que el contenido se alinee verticalmente */
+    justify-content: space-between; /* Distribuye los elementos de manera uniforme */
+    text-align: center;
+    width: 22%;
+    margin: 0 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-item img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.service-item h3 {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    color: #333;
+    font-size: 14px;
+    flex-grow: 1; /* Asegura que los párrafos llenen el espacio disponible */
+}
+
+/* Asegura que los ítems tengan la misma altura */
+.service-item {
+    min-height: 350px; /* Ajusta según lo necesario para que todos los elementos queden alineados */
+}
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #ffffff !important;
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid #4ccbcf;
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: transform 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #007bff;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+/* Menú desplegable */
+.navbar .dropdown-menu {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+
+.navbar .dropdown-item {
+    color: #333;
+    padding: 0.5rem 1rem;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Sección de servicios */
+.services-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.service-item {
+    text-align: center;
+    width: 22%;
+    margin: 0 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-item img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.service-item h3 {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    color: #333;
+    font-size: 14px;
+}
+
+/* Botón Cotiza Ahora */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cotiza-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.cotiza-btn:hover {
+    background-color: #444;
+}
+
+/* Sección de tarjetas */
+.card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 2rem;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.25rem;
+    color: #666;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* 
+/* Contenedor del video */
+.video-container {
+    position: relative;
+    width: 100%; /* Se ajusta al ancho del contenedor padre */
+    padding-top: 56.25%; /* Mantiene la relación de aspecto 16:9 */
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Respeta las proporciones del video sin recortarlo */
+    filter: brightness(50%); /* Mantiene el filtro de brillo */
+    background-color: #000; /* Fondo negro en caso de que el video no ocupe todo el espacio */
+}
+/* Botón Cotiza Ahora */
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra el botón horizontalmente */
+    align-items: center;
+    margin: 40px 0; /* Ajusta el margen superior e inferior según sea necesario */
+}
+
+.cotiza-btn {
+    background-color: #4543e9;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Asegura que el botón no se expanda más allá del contenido */
+}
+
+.cotiza-btn:hover {
+    background-color: #444;
+}
+.services-section {
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre los contenedores */
+    flex-wrap: wrap; /* Permite que los contenedores se muevan a la siguiente línea si es necesario */
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Ajuste para que el contenido empiece desde arriba */
+    align-items: center; /* Centra el contenido horizontalmente */
+    text-align: center;
+    width: 23%; /* Ancho ajustado */
+    margin: 1%; /* Margen entre contenedores */
+    background-color: #ffffff; /* Color de fondo */
+    border: 1px solid #ddd; /* Borde */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra más prominente */
+    min-height: 400px; /* Altura mínima para uniformidad */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+}
+
+.service-item:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el ratón */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Sombra más intensa al pasar el ratón */
+}
+
+.service-item img {
+    width: 80px; /* Ancho de la imagen ajustado */
+    height: auto; /* Mantener la proporción de la imagen */
+    margin-bottom: 15px; /* Espacio debajo de la imagen */
+}
+
+.service-item h3 {
+    color: #333; /* Color del texto del título */
+    margin: 10px 0; /* Espaciado alrededor del título */
+}
+
+.service-item p {
+    color: #666; /* Color del texto del párrafo */
+    line-height: 1.5; /* Espaciado entre líneas */
+    margin-bottom: 20px; /* Espacio debajo del párrafo */
+}
+
+.button-container {
+    margin-top: auto; /* Empuja el botón hacia la parte inferior */
+}
+
+.cotiza-btn {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    text-decoration: none; /* Eliminar subrayado */
+    transition: background-color 0.3s ease; /* Transición suave para el color */
+}
+
+.cotiza-btn:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el ratón */
+}
+
+
+.button-container {
+    margin-top: 15px;
+    text-align: center; /* Centra el botón dentro de su contenedor */
+}
+
+.cotiza-btn {
+    background-color: #4543e9;
+    color: #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cotiza-btn:hover {
+    background-color: #10bdd4;
+}
+.navbar img {
+    max-height: 100px; /* Ajusta la altura máxima según sea necesario */
+}
+
+
+
+.container {
+    max-width: 600px; /* Ancho máximo para el contenido */
+    margin: 20px auto; /* Centramos el contenedor */
+    background-color: #10bdd4(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+    padding: 30px; /* Espacio alrededor del contenido */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease; /* Transición suave para el hover */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el ratón */
+}
+
+.list-unstyled {
+    list-style-type: none; /* Elimina las viñetas de las listas */
+    padding: 0; /* Elimina el padding de la lista */
+    margin: 20px 0; /* Espaciado vertical */
+}
+
+.list-unstyled li {
+    padding: 10px; /* Espaciado interno para cada elemento */
+    border-bottom: 1px solid #e0e0e0; /* Línea divisoria entre elementos */
+    transition: background-color 0.3s ease; /* Transición para el hover */
+}
+
+.list-unstyled li:hover {
+    background-color: rgba(230, 230, 250, 0.5); /* Color de fondo al pasar el ratón */
+}
+
+.list-unstyled li a {
+    text-decoration: none; /* Eliminar subrayado */
+    color: #007bff; /* Color de los enlaces */
+    transition: color 0.3s ease; /* Transición para el color */
+}
+
+.list-unstyled li a:hover {
+    color: #0056b3; /* Color más oscuro al pasar el ratón */
+}
+
+
+h5 {
+    margin-bottom: 15px; /* Espacio entre el título y los enlaces */
+}
+
+footer a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: rgb(0, 0, 0); /* Color de texto blanco */
+    transition: color 0.3s, background-color 0.3s; /* Transiciones suaves para el color y fondo al pasar el mouse */
+    padding: 5px; /* Espacio alrededor del texto para mejor efecto */
+}
+
+footer a:hover {
+    color: rgba(252, 7, 7, 0.8); /* Color al pasar el mouse */
+    background-color: #10bdd4; /* Fondo ligero al pasar el mouse */
+}
+    
+footer .row {
+    display: flex;
+    justify-content: space-around; /* Espacio equitativo entre columnas */
+    text-align: center; /* Centra el texto dentro de las columnas */
+}
+
+footer .col-md-4 {
+    flex: 1; /* Permite que las columnas crezcan uniformemente */
+    margin: 0 10px; /* Espacio lateral entre columnas */
+}
+
+footer h5 {
+    margin-bottom: 15px; /* Espacio entre el título y los enlaces */
+}
+footer .row {
+    display: flex;
+    justify-content: center; /* Centra las columnas horizontalmente */
+    text-align: center; /* Centra el texto dentro de las columnas */
+}
+
+footer .col-md-4 {
+    margin-bottom: 20px; /* Espacio entre columnas en dispositivos más pequeños */
+}
+
+footer h5 {
+    margin-bottom: 15px; /* Espacio entre el título y los enlaces */
+}
